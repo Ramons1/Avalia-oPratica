@@ -15,7 +15,7 @@ public class SistemaAcesso {
     }
 
     public void adicionarUsuario(Usuario novoUsuario) {
-        // Verificação simples para evitar duplicatas pelo nome de usuário
+        // Verificação simples para evitar duplicações pelo nome de usuário
         for (Usuario usuario : usuariosCadastrados) {
             if (usuario.getNomeUsuario().equals(novoUsuario.getNomeUsuario())) {
                 System.out.println("Erro: Usuário com o nome " + novoUsuario.getNomeUsuario() + " já existe.");
