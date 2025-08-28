@@ -29,6 +29,6 @@ public class Main {
             System.out.println("Permissão de Administrador? " + sistema.temPermissao(Perfil.ADMINISTRADOR));
         }
 
-        scanner.close(); // Fechando o scanner para liberar recursos
+        scanner.close(); 
     }
 }
